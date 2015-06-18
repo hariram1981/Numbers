@@ -5,17 +5,17 @@ apply plugin: 'maven'
 uploadArchives {
 	repositories.mavenDeployer {
 		repository (url: "file:///home/hariram/Personal/github/maven-repo-snapshot")
-		pom.version = '0.1'
+		pom.version = '0.2'
 		pom.artifactId = 'numbers'
 		pom.groupId = 'com.hariram'
 	}
 }
 
-sourceCompatibility = '1.8'
+sourceCompatibility = '1.7'
 
 jar {
     baseName = 'numbers'
-    version =  '0.1'
+    version =  '0.2'
 }
 
 repositories {
