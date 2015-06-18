@@ -9,7 +9,7 @@ public class Numbers {
 	 */
 	public static Number getNumbers(String strDate) {
 		//Convert string to date
-		DateTimeFormatter dateFormatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm");
+		DateTimeFormatter dateFormatter = DateTimeFormatter.ofPattern("dd-MM-yyyy HH:mm");
 		LocalDateTime dateTime = LocalDateTime.parse(strDate, dateFormatter);
 		
 		int date = dateTime.getDayOfMonth();

@@ -55,6 +55,6 @@ public class Number {
 	 */
 	public String toString() {
 		return "charNum: " + charNum +
-				"fateNum: " + fateNum;
+				"\nfateNum: " + fateNum;
 	}
 }
